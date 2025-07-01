@@ -16,3 +16,21 @@ C:\Users\srishtic\OneDrive - Surya Software Systems Private Limited\Desktop\TOOL
 C:\Users\srishtic\OneDrive - Surya Software Systems Private Limited\Desktop\TOOL\TOOL\obj\Debug\net8.0\TOOL.pdb
 C:\Users\srishtic\OneDrive - Surya Software Systems Private Limited\Desktop\TOOL\TOOL\obj\Debug\net8.0\TOOL.genruntimeconfig.cache
 C:\Users\srishtic\OneDrive - Surya Software Systems Private Limited\Desktop\TOOL\TOOL\obj\Debug\net8.0\ref\TOOL.dll
+D:\Repos\TOOL\bin\Debug\net8.0\TOOL.exe
+D:\Repos\TOOL\bin\Debug\net8.0\TOOL.deps.json
+D:\Repos\TOOL\bin\Debug\net8.0\TOOL.runtimeconfig.json
+D:\Repos\TOOL\bin\Debug\net8.0\TOOL.dll
+D:\Repos\TOOL\bin\Debug\net8.0\TOOL.pdb
+D:\Repos\TOOL\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Repos\TOOL\obj\Debug\net8.0\TOOL.csproj.AssemblyReference.cache
+D:\Repos\TOOL\obj\Debug\net8.0\TOOL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\TOOL\obj\Debug\net8.0\TOOL.AssemblyInfoInputs.cache
+D:\Repos\TOOL\obj\Debug\net8.0\TOOL.AssemblyInfo.cs
+D:\Repos\TOOL\obj\Debug\net8.0\TOOL.csproj.CoreCompileInputs.cache
+D:\Repos\TOOL\obj\Debug\net8.0\TOOL.sourcelink.json
+D:\Repos\TOOL\obj\Debug\net8.0\TOOL.csproj.Up2Date
+D:\Repos\TOOL\obj\Debug\net8.0\TOOL.dll
+D:\Repos\TOOL\obj\Debug\net8.0\refint\TOOL.dll
+D:\Repos\TOOL\obj\Debug\net8.0\TOOL.pdb
+D:\Repos\TOOL\obj\Debug\net8.0\TOOL.genruntimeconfig.cache
+D:\Repos\TOOL\obj\Debug\net8.0\ref\TOOL.dll
