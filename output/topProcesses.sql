@@ -7,15 +7,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/{applicationId}/OptionLookup/{lookupType}',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -39,15 +39,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/BaselBusinessLine/Hierarchy',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -71,15 +71,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/BaselLossEventCategory/Hierarchy',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -103,15 +103,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/Blobs/Download',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -135,15 +135,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/Blobs/Search',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -167,15 +167,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/Blobs/UploadMany',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -199,15 +199,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/BusinessUnit/Hierarchy',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -231,15 +231,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/Control/GetM',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -263,15 +263,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/Control/GetWfStatus',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -295,15 +295,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/Control/Search',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -327,15 +327,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/Control/SearchWfStatus',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -359,15 +359,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/Control/Transit',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -391,15 +391,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/ControlCategory/Option',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -423,15 +423,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/ControlCategory/Search',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -455,15 +455,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/export/pdf',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -487,15 +487,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/export/raw',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -519,15 +519,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/Features/GetFeatureRole',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -551,15 +551,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/Issue/Search',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -583,15 +583,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/KeyStore/Values/{ApplicationId}',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -615,15 +615,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/KRI/Search',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -647,15 +647,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/Location/Hierarchy',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -679,15 +679,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/Models/GetByType',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -711,15 +711,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/Notification/MarkRead',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -743,15 +743,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/Notification/SearchPaged',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -775,15 +775,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/Product/Search',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -807,15 +807,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/Risk/GetM',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -839,15 +839,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/Risk/GetWfStatus',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -871,15 +871,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/Risk/SearchWfStatus',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -903,15 +903,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/Risk/Transit',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -935,15 +935,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/RiskCategory/Hierarchy',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -967,15 +967,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/RiskLLG/Get',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -999,15 +999,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/RiskLLG/GetWfStatus',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -1031,15 +1031,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/RiskLLG/Search',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -1063,15 +1063,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/RiskLLG/SearchWfStatus',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -1095,15 +1095,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/Risks/LossAggregateReport',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -1127,15 +1127,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/Risks/RatingAggregateReport',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -1159,15 +1159,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/Roles/Search/{recordState}',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -1191,15 +1191,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/SM/Get',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -1223,15 +1223,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/SystemLookups/{lookupType}',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -1255,15 +1255,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/UserProfile/GetRoleDetails',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -1287,15 +1287,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/UserProfile/GetUserDetails',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -1319,15 +1319,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/UserProfile/GetUserProfiles',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -1351,15 +1351,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/UserProfile/Search',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -1383,15 +1383,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/Users/CurrentUser/{applicationId}/FeaturePermissions',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -1415,15 +1415,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/Users/{id}/Avatar',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -1447,15 +1447,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/Users/Me/Get',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -1479,15 +1479,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/Users/Profile',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -1511,15 +1511,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/Users/Search/{recordState}',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -1543,15 +1543,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/Workflow/GetByTranType',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -1575,15 +1575,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/Workflow/GetStartTransitions',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
@@ -1607,15 +1607,15 @@ VALUES (
 '48261c2e-a609-4a3d-85af-d57dfdc9ea07',
 '/api/Workflow/TranActivity/SearchPaged',
 104,
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-0
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
 )
 ON CONFLICT ("Id") DO UPDATE SET
 "FeatureId" = EXCLUDED."FeatureId",
