@@ -3,9 +3,9 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'0af7b97e-1d2f-46b5-aa1e-b1cc161ae908',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
-'/api/{ApplicationId}/OptionLookup/{lookupType}',
+'9877133d-d28f-4ba4-bc6a-4ac4895a07be',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
+'/api/{applicationId}/OptionLookup/{lookupType}',
 104,
 '00000000-0000-0000-0000-000000000000',
 '-infinity',
@@ -35,8 +35,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'e87c0b8c-c160-4283-80d6-6caf76b1ff90',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'f3014f16-8693-45ee-8a4f-d5e233703ac1',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/BaselBusinessLine/Hierarchy',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -67,40 +67,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'0ae7a5d8-cbd5-431d-95a0-40354c21181f',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
-'/api/BaselBusinessLine/Search',
-104,
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-1
-)
-ON CONFLICT ("Id") DO UPDATE SET
-"FeatureId" = EXCLUDED."FeatureId",
-"Path" = EXCLUDED."Path",
-"AccessScope" = EXCLUDED."AccessScope",
-"MakerCreId" = EXCLUDED."MakerCreId",
-"MakerCreTime" = EXCLUDED."MakerCreTime",
-"MakerModId" = EXCLUDED."MakerModId",
-"MakerModTime" = EXCLUDED."MakerModTime",
-"CheckerCreId" = EXCLUDED."CheckerCreId",
-"CheckerCreTime" = EXCLUDED."CheckerCreTime",
-"CheckerModId" = EXCLUDED."CheckerModId",
-"CheckerModTime" = EXCLUDED."CheckerModTime",
-"RecordState" = EXCLUDED."RecordState";
-INSERT INTO dbo."FeatureApiEndpoint" (
-"Id", "FeatureId", "Path", "AccessScope", "MakerCreId", "MakerCreTime",
-"MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
-"CheckerModId", "CheckerModTime", "RecordState")
-VALUES (
-'534fc183-f028-4467-8e10-fdd9bf580c12',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'db019017-cd7d-4a74-83e8-91c976784eb8',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/BaselLossEventCategory/Hierarchy',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -131,40 +99,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'4f17f618-4831-4d7d-a113-bd9ac5a76d61',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
-'/api/BaselLossEventCategory/Search',
-104,
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-1
-)
-ON CONFLICT ("Id") DO UPDATE SET
-"FeatureId" = EXCLUDED."FeatureId",
-"Path" = EXCLUDED."Path",
-"AccessScope" = EXCLUDED."AccessScope",
-"MakerCreId" = EXCLUDED."MakerCreId",
-"MakerCreTime" = EXCLUDED."MakerCreTime",
-"MakerModId" = EXCLUDED."MakerModId",
-"MakerModTime" = EXCLUDED."MakerModTime",
-"CheckerCreId" = EXCLUDED."CheckerCreId",
-"CheckerCreTime" = EXCLUDED."CheckerCreTime",
-"CheckerModId" = EXCLUDED."CheckerModId",
-"CheckerModTime" = EXCLUDED."CheckerModTime",
-"RecordState" = EXCLUDED."RecordState";
-INSERT INTO dbo."FeatureApiEndpoint" (
-"Id", "FeatureId", "Path", "AccessScope", "MakerCreId", "MakerCreTime",
-"MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
-"CheckerModId", "CheckerModTime", "RecordState")
-VALUES (
-'64ba3717-3096-4a53-a020-3bd01c23f457',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'c4c71f9f-4de3-42fc-aacd-4d1fd08d4213',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/Blobs/Download',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -195,8 +131,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'9f3ec032-d050-490c-bddc-b37d592e2c70',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'6674d6f1-51fb-4485-8d8b-8ea6cb55d5d4',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/Blobs/Search',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -227,8 +163,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'0142cab2-07d3-4ca4-b5df-ff42ce2bb0d9',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'bf99d6a9-2aa7-4509-9971-44e5c68671fe',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/Blobs/UploadMany',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -259,8 +195,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'53dcf655-4792-4681-8646-37d4631d0e46',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'402aa922-e557-4c94-a8ef-eb1293f1ea74',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/BusinessUnit/Hierarchy',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -291,8 +227,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'b16b1aa6-bc33-48ab-85c5-25f005961931',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'b75929b6-266b-49a8-82ba-8c98ba281218',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/Control/GetM',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -323,8 +259,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'5f3d6cf3-a8fb-43bb-b790-1fafd11fc494',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'db476c92-5169-4bc3-b8ae-6e365f537e0f',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/Control/GetWfStatus',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -355,8 +291,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'1c8e356a-dc56-4b18-80ec-6ae369d726d7',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'88d1ba80-4e79-49c0-b226-5706515ba130',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/Control/Search',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -387,8 +323,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'c07d615e-4cd0-443c-af27-d93cbcce7caa',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'f358f00a-2c4b-4e78-a7c6-eadec6c44cd9',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/Control/SearchWfStatus',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -419,8 +355,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'84aa25d3-5568-46fc-b2b5-743a9815df47',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'c078eeac-e27e-4469-83b6-7ed1af668943',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/Control/Transit',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -451,8 +387,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'5e300e91-b37a-4478-afd0-482a95dfe3de',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'5cc7068e-5388-4a82-89a3-f983ef13ced4',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/ControlCategory/Option',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -483,8 +419,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'418a9dd8-1739-4337-93f0-fc3276b38554',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'220ce400-80dc-48e7-b055-081978a22897',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/ControlCategory/Search',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -515,72 +451,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'61519cc3-ac6f-4da0-9c5c-affd20fa623a',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
-'/api/Currency/Search',
-104,
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-1
-)
-ON CONFLICT ("Id") DO UPDATE SET
-"FeatureId" = EXCLUDED."FeatureId",
-"Path" = EXCLUDED."Path",
-"AccessScope" = EXCLUDED."AccessScope",
-"MakerCreId" = EXCLUDED."MakerCreId",
-"MakerCreTime" = EXCLUDED."MakerCreTime",
-"MakerModId" = EXCLUDED."MakerModId",
-"MakerModTime" = EXCLUDED."MakerModTime",
-"CheckerCreId" = EXCLUDED."CheckerCreId",
-"CheckerCreTime" = EXCLUDED."CheckerCreTime",
-"CheckerModId" = EXCLUDED."CheckerModId",
-"CheckerModTime" = EXCLUDED."CheckerModTime",
-"RecordState" = EXCLUDED."RecordState";
-INSERT INTO dbo."FeatureApiEndpoint" (
-"Id", "FeatureId", "Path", "AccessScope", "MakerCreId", "MakerCreTime",
-"MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
-"CheckerModId", "CheckerModTime", "RecordState")
-VALUES (
-'681ac9d5-59ab-4e56-8b27-682c22e5413a',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
-'/api/export/fromTemplate',
-104,
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-1
-)
-ON CONFLICT ("Id") DO UPDATE SET
-"FeatureId" = EXCLUDED."FeatureId",
-"Path" = EXCLUDED."Path",
-"AccessScope" = EXCLUDED."AccessScope",
-"MakerCreId" = EXCLUDED."MakerCreId",
-"MakerCreTime" = EXCLUDED."MakerCreTime",
-"MakerModId" = EXCLUDED."MakerModId",
-"MakerModTime" = EXCLUDED."MakerModTime",
-"CheckerCreId" = EXCLUDED."CheckerCreId",
-"CheckerCreTime" = EXCLUDED."CheckerCreTime",
-"CheckerModId" = EXCLUDED."CheckerModId",
-"CheckerModTime" = EXCLUDED."CheckerModTime",
-"RecordState" = EXCLUDED."RecordState";
-INSERT INTO dbo."FeatureApiEndpoint" (
-"Id", "FeatureId", "Path", "AccessScope", "MakerCreId", "MakerCreTime",
-"MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
-"CheckerModId", "CheckerModTime", "RecordState")
-VALUES (
-'e85d4fcc-ce3d-4735-9f3a-c590a0645383',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'037635b3-5947-47f9-b668-1edec79d4d45',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/export/pdf',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -611,8 +483,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'c3d00df5-facd-4c1d-b5ec-42d127b14a99',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'6a653fec-3376-4a33-9308-ab95678f28c1',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/export/raw',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -643,40 +515,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'14d5c488-0b44-45c8-b757-8c5a13b6c164',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
-'/api/export/spreadsheet',
-104,
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-1
-)
-ON CONFLICT ("Id") DO UPDATE SET
-"FeatureId" = EXCLUDED."FeatureId",
-"Path" = EXCLUDED."Path",
-"AccessScope" = EXCLUDED."AccessScope",
-"MakerCreId" = EXCLUDED."MakerCreId",
-"MakerCreTime" = EXCLUDED."MakerCreTime",
-"MakerModId" = EXCLUDED."MakerModId",
-"MakerModTime" = EXCLUDED."MakerModTime",
-"CheckerCreId" = EXCLUDED."CheckerCreId",
-"CheckerCreTime" = EXCLUDED."CheckerCreTime",
-"CheckerModId" = EXCLUDED."CheckerModId",
-"CheckerModTime" = EXCLUDED."CheckerModTime",
-"RecordState" = EXCLUDED."RecordState";
-INSERT INTO dbo."FeatureApiEndpoint" (
-"Id", "FeatureId", "Path", "AccessScope", "MakerCreId", "MakerCreTime",
-"MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
-"CheckerModId", "CheckerModTime", "RecordState")
-VALUES (
-'4e73fa9d-9a47-4928-8ff5-6e8965f2ebc5',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'bfe015c7-f58a-48c3-bd6b-c7d8a61e68d5',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/Features/GetFeatureRole',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -707,264 +547,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'3d1eba05-4653-4755-bacc-a28223e29ef8',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
-'/api/Incident/{id}/GetWfStatus',
-104,
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-1
-)
-ON CONFLICT ("Id") DO UPDATE SET
-"FeatureId" = EXCLUDED."FeatureId",
-"Path" = EXCLUDED."Path",
-"AccessScope" = EXCLUDED."AccessScope",
-"MakerCreId" = EXCLUDED."MakerCreId",
-"MakerCreTime" = EXCLUDED."MakerCreTime",
-"MakerModId" = EXCLUDED."MakerModId",
-"MakerModTime" = EXCLUDED."MakerModTime",
-"CheckerCreId" = EXCLUDED."CheckerCreId",
-"CheckerCreTime" = EXCLUDED."CheckerCreTime",
-"CheckerModId" = EXCLUDED."CheckerModId",
-"CheckerModTime" = EXCLUDED."CheckerModTime",
-"RecordState" = EXCLUDED."RecordState";
-INSERT INTO dbo."FeatureApiEndpoint" (
-"Id", "FeatureId", "Path", "AccessScope", "MakerCreId", "MakerCreTime",
-"MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
-"CheckerModId", "CheckerModTime", "RecordState")
-VALUES (
-'70ca5cdf-ef44-4100-a23c-ead327b1d9f6',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
-'/api/Incident/Get',
-104,
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-1
-)
-ON CONFLICT ("Id") DO UPDATE SET
-"FeatureId" = EXCLUDED."FeatureId",
-"Path" = EXCLUDED."Path",
-"AccessScope" = EXCLUDED."AccessScope",
-"MakerCreId" = EXCLUDED."MakerCreId",
-"MakerCreTime" = EXCLUDED."MakerCreTime",
-"MakerModId" = EXCLUDED."MakerModId",
-"MakerModTime" = EXCLUDED."MakerModTime",
-"CheckerCreId" = EXCLUDED."CheckerCreId",
-"CheckerCreTime" = EXCLUDED."CheckerCreTime",
-"CheckerModId" = EXCLUDED."CheckerModId",
-"CheckerModTime" = EXCLUDED."CheckerModTime",
-"RecordState" = EXCLUDED."RecordState";
-INSERT INTO dbo."FeatureApiEndpoint" (
-"Id", "FeatureId", "Path", "AccessScope", "MakerCreId", "MakerCreTime",
-"MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
-"CheckerModId", "CheckerModTime", "RecordState")
-VALUES (
-'70341071-4acd-405b-bda5-64dc1c99b9a3',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
-'/api/Incident/Search',
-104,
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-1
-)
-ON CONFLICT ("Id") DO UPDATE SET
-"FeatureId" = EXCLUDED."FeatureId",
-"Path" = EXCLUDED."Path",
-"AccessScope" = EXCLUDED."AccessScope",
-"MakerCreId" = EXCLUDED."MakerCreId",
-"MakerCreTime" = EXCLUDED."MakerCreTime",
-"MakerModId" = EXCLUDED."MakerModId",
-"MakerModTime" = EXCLUDED."MakerModTime",
-"CheckerCreId" = EXCLUDED."CheckerCreId",
-"CheckerCreTime" = EXCLUDED."CheckerCreTime",
-"CheckerModId" = EXCLUDED."CheckerModId",
-"CheckerModTime" = EXCLUDED."CheckerModTime",
-"RecordState" = EXCLUDED."RecordState";
-INSERT INTO dbo."FeatureApiEndpoint" (
-"Id", "FeatureId", "Path", "AccessScope", "MakerCreId", "MakerCreTime",
-"MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
-"CheckerModId", "CheckerModTime", "RecordState")
-VALUES (
-'fba7bb58-b42a-467a-a2f8-04b611fd167b',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
-'/api/Incident/Transit/{tranType}',
-104,
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-1
-)
-ON CONFLICT ("Id") DO UPDATE SET
-"FeatureId" = EXCLUDED."FeatureId",
-"Path" = EXCLUDED."Path",
-"AccessScope" = EXCLUDED."AccessScope",
-"MakerCreId" = EXCLUDED."MakerCreId",
-"MakerCreTime" = EXCLUDED."MakerCreTime",
-"MakerModId" = EXCLUDED."MakerModId",
-"MakerModTime" = EXCLUDED."MakerModTime",
-"CheckerCreId" = EXCLUDED."CheckerCreId",
-"CheckerCreTime" = EXCLUDED."CheckerCreTime",
-"CheckerModId" = EXCLUDED."CheckerModId",
-"CheckerModTime" = EXCLUDED."CheckerModTime",
-"RecordState" = EXCLUDED."RecordState";
-INSERT INTO dbo."FeatureApiEndpoint" (
-"Id", "FeatureId", "Path", "AccessScope", "MakerCreId", "MakerCreTime",
-"MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
-"CheckerModId", "CheckerModTime", "RecordState")
-VALUES (
-'0726f816-965e-4ed2-b38c-c398b870fd8b',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
-'/api/IncidentImpactItem/Search',
-104,
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-1
-)
-ON CONFLICT ("Id") DO UPDATE SET
-"FeatureId" = EXCLUDED."FeatureId",
-"Path" = EXCLUDED."Path",
-"AccessScope" = EXCLUDED."AccessScope",
-"MakerCreId" = EXCLUDED."MakerCreId",
-"MakerCreTime" = EXCLUDED."MakerCreTime",
-"MakerModId" = EXCLUDED."MakerModId",
-"MakerModTime" = EXCLUDED."MakerModTime",
-"CheckerCreId" = EXCLUDED."CheckerCreId",
-"CheckerCreTime" = EXCLUDED."CheckerCreTime",
-"CheckerModId" = EXCLUDED."CheckerModId",
-"CheckerModTime" = EXCLUDED."CheckerModTime",
-"RecordState" = EXCLUDED."RecordState";
-INSERT INTO dbo."FeatureApiEndpoint" (
-"Id", "FeatureId", "Path", "AccessScope", "MakerCreId", "MakerCreTime",
-"MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
-"CheckerModId", "CheckerModTime", "RecordState")
-VALUES (
-'b9ec9fdc-65b4-4825-861b-fc166f544fc3',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
-'/api/Incidents/OneIncidentReport',
-104,
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-1
-)
-ON CONFLICT ("Id") DO UPDATE SET
-"FeatureId" = EXCLUDED."FeatureId",
-"Path" = EXCLUDED."Path",
-"AccessScope" = EXCLUDED."AccessScope",
-"MakerCreId" = EXCLUDED."MakerCreId",
-"MakerCreTime" = EXCLUDED."MakerCreTime",
-"MakerModId" = EXCLUDED."MakerModId",
-"MakerModTime" = EXCLUDED."MakerModTime",
-"CheckerCreId" = EXCLUDED."CheckerCreId",
-"CheckerCreTime" = EXCLUDED."CheckerCreTime",
-"CheckerModId" = EXCLUDED."CheckerModId",
-"CheckerModTime" = EXCLUDED."CheckerModTime",
-"RecordState" = EXCLUDED."RecordState";
-INSERT INTO dbo."FeatureApiEndpoint" (
-"Id", "FeatureId", "Path", "AccessScope", "MakerCreId", "MakerCreTime",
-"MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
-"CheckerModId", "CheckerModTime", "RecordState")
-VALUES (
-'ab8af674-6083-429c-a618-3e62782186e5',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
-'/api/Issue/Get',
-104,
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-1
-)
-ON CONFLICT ("Id") DO UPDATE SET
-"FeatureId" = EXCLUDED."FeatureId",
-"Path" = EXCLUDED."Path",
-"AccessScope" = EXCLUDED."AccessScope",
-"MakerCreId" = EXCLUDED."MakerCreId",
-"MakerCreTime" = EXCLUDED."MakerCreTime",
-"MakerModId" = EXCLUDED."MakerModId",
-"MakerModTime" = EXCLUDED."MakerModTime",
-"CheckerCreId" = EXCLUDED."CheckerCreId",
-"CheckerCreTime" = EXCLUDED."CheckerCreTime",
-"CheckerModId" = EXCLUDED."CheckerModId",
-"CheckerModTime" = EXCLUDED."CheckerModTime",
-"RecordState" = EXCLUDED."RecordState";
-INSERT INTO dbo."FeatureApiEndpoint" (
-"Id", "FeatureId", "Path", "AccessScope", "MakerCreId", "MakerCreTime",
-"MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
-"CheckerModId", "CheckerModTime", "RecordState")
-VALUES (
-'a0aa4657-dc36-4620-a25d-9853de0891d5',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
-'/api/Issue/GetWfStatus/{tranType}',
-104,
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-1
-)
-ON CONFLICT ("Id") DO UPDATE SET
-"FeatureId" = EXCLUDED."FeatureId",
-"Path" = EXCLUDED."Path",
-"AccessScope" = EXCLUDED."AccessScope",
-"MakerCreId" = EXCLUDED."MakerCreId",
-"MakerCreTime" = EXCLUDED."MakerCreTime",
-"MakerModId" = EXCLUDED."MakerModId",
-"MakerModTime" = EXCLUDED."MakerModTime",
-"CheckerCreId" = EXCLUDED."CheckerCreId",
-"CheckerCreTime" = EXCLUDED."CheckerCreTime",
-"CheckerModId" = EXCLUDED."CheckerModId",
-"CheckerModTime" = EXCLUDED."CheckerModTime",
-"RecordState" = EXCLUDED."RecordState";
-INSERT INTO dbo."FeatureApiEndpoint" (
-"Id", "FeatureId", "Path", "AccessScope", "MakerCreId", "MakerCreTime",
-"MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
-"CheckerModId", "CheckerModTime", "RecordState")
-VALUES (
-'1dcf5412-cfe1-45db-aed9-6e9658c9b394',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'e312a788-7d04-456c-b8d5-8c16ff4df827',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/Issue/Search',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -995,104 +579,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'716e2e0a-0c76-4bfe-8505-1be9defbdf33',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
-'/api/Issue/SearchWfStatus/{tranType}',
-104,
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-1
-)
-ON CONFLICT ("Id") DO UPDATE SET
-"FeatureId" = EXCLUDED."FeatureId",
-"Path" = EXCLUDED."Path",
-"AccessScope" = EXCLUDED."AccessScope",
-"MakerCreId" = EXCLUDED."MakerCreId",
-"MakerCreTime" = EXCLUDED."MakerCreTime",
-"MakerModId" = EXCLUDED."MakerModId",
-"MakerModTime" = EXCLUDED."MakerModTime",
-"CheckerCreId" = EXCLUDED."CheckerCreId",
-"CheckerCreTime" = EXCLUDED."CheckerCreTime",
-"CheckerModId" = EXCLUDED."CheckerModId",
-"CheckerModTime" = EXCLUDED."CheckerModTime",
-"RecordState" = EXCLUDED."RecordState";
-INSERT INTO dbo."FeatureApiEndpoint" (
-"Id", "FeatureId", "Path", "AccessScope", "MakerCreId", "MakerCreTime",
-"MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
-"CheckerModId", "CheckerModTime", "RecordState")
-VALUES (
-'e5ace72b-039b-44bc-8ba7-91b4ca707cb3',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
-'/api/Issue/Transit/{tranType}',
-104,
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-1
-)
-ON CONFLICT ("Id") DO UPDATE SET
-"FeatureId" = EXCLUDED."FeatureId",
-"Path" = EXCLUDED."Path",
-"AccessScope" = EXCLUDED."AccessScope",
-"MakerCreId" = EXCLUDED."MakerCreId",
-"MakerCreTime" = EXCLUDED."MakerCreTime",
-"MakerModId" = EXCLUDED."MakerModId",
-"MakerModTime" = EXCLUDED."MakerModTime",
-"CheckerCreId" = EXCLUDED."CheckerCreId",
-"CheckerCreTime" = EXCLUDED."CheckerCreTime",
-"CheckerModId" = EXCLUDED."CheckerModId",
-"CheckerModTime" = EXCLUDED."CheckerModTime",
-"RecordState" = EXCLUDED."RecordState";
-INSERT INTO dbo."FeatureApiEndpoint" (
-"Id", "FeatureId", "Path", "AccessScope", "MakerCreId", "MakerCreTime",
-"MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
-"CheckerModId", "CheckerModTime", "RecordState")
-VALUES (
-'76ff63ff-8b80-4c46-b52d-7d99e719f33c',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
-'/api/IssueActionPlan/SearchWfStatus',
-104,
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-1
-)
-ON CONFLICT ("Id") DO UPDATE SET
-"FeatureId" = EXCLUDED."FeatureId",
-"Path" = EXCLUDED."Path",
-"AccessScope" = EXCLUDED."AccessScope",
-"MakerCreId" = EXCLUDED."MakerCreId",
-"MakerCreTime" = EXCLUDED."MakerCreTime",
-"MakerModId" = EXCLUDED."MakerModId",
-"MakerModTime" = EXCLUDED."MakerModTime",
-"CheckerCreId" = EXCLUDED."CheckerCreId",
-"CheckerCreTime" = EXCLUDED."CheckerCreTime",
-"CheckerModId" = EXCLUDED."CheckerModId",
-"CheckerModTime" = EXCLUDED."CheckerModTime",
-"RecordState" = EXCLUDED."RecordState";
-INSERT INTO dbo."FeatureApiEndpoint" (
-"Id", "FeatureId", "Path", "AccessScope", "MakerCreId", "MakerCreTime",
-"MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
-"CheckerModId", "CheckerModTime", "RecordState")
-VALUES (
-'bdfdd899-c8ec-41da-a769-336356bd357d',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'d6e6c643-2d46-4ed0-993a-7fc704be6311',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/KeyStore/Values/{ApplicationId}',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -1123,9 +611,9 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'bc11d7d5-9154-49ab-83cb-bbdc9f639083',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
-'/api/kri/Search',
+'9380339b-59bd-405f-8cab-edc5c724f052',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
+'/api/KRI/Search',
 104,
 '00000000-0000-0000-0000-000000000000',
 '-infinity',
@@ -1155,8 +643,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'4cc5fbf1-944d-4122-b743-acdbedf0123f',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'e305d55f-0ee6-498f-95dd-cf1d888cc4e6',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/Location/Hierarchy',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -1187,40 +675,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'f6a40233-cf1d-4b87-a2f7-02dd024acbed',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
-'/api/Models/{ApplicationId}/GetTranTypes',
-104,
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-1
-)
-ON CONFLICT ("Id") DO UPDATE SET
-"FeatureId" = EXCLUDED."FeatureId",
-"Path" = EXCLUDED."Path",
-"AccessScope" = EXCLUDED."AccessScope",
-"MakerCreId" = EXCLUDED."MakerCreId",
-"MakerCreTime" = EXCLUDED."MakerCreTime",
-"MakerModId" = EXCLUDED."MakerModId",
-"MakerModTime" = EXCLUDED."MakerModTime",
-"CheckerCreId" = EXCLUDED."CheckerCreId",
-"CheckerCreTime" = EXCLUDED."CheckerCreTime",
-"CheckerModId" = EXCLUDED."CheckerModId",
-"CheckerModTime" = EXCLUDED."CheckerModTime",
-"RecordState" = EXCLUDED."RecordState";
-INSERT INTO dbo."FeatureApiEndpoint" (
-"Id", "FeatureId", "Path", "AccessScope", "MakerCreId", "MakerCreTime",
-"MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
-"CheckerModId", "CheckerModTime", "RecordState")
-VALUES (
-'1ffe289b-d25c-4045-b296-241503cf7227',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'86ef4ff7-e568-4300-96f6-73588fe2825c',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/Models/GetByType',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -1251,40 +707,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'d607c090-290d-4776-aaa4-31a8a12b8064',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
-'/api/Models/GetFieldConfig',
-104,
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-1
-)
-ON CONFLICT ("Id") DO UPDATE SET
-"FeatureId" = EXCLUDED."FeatureId",
-"Path" = EXCLUDED."Path",
-"AccessScope" = EXCLUDED."AccessScope",
-"MakerCreId" = EXCLUDED."MakerCreId",
-"MakerCreTime" = EXCLUDED."MakerCreTime",
-"MakerModId" = EXCLUDED."MakerModId",
-"MakerModTime" = EXCLUDED."MakerModTime",
-"CheckerCreId" = EXCLUDED."CheckerCreId",
-"CheckerCreTime" = EXCLUDED."CheckerCreTime",
-"CheckerModId" = EXCLUDED."CheckerModId",
-"CheckerModTime" = EXCLUDED."CheckerModTime",
-"RecordState" = EXCLUDED."RecordState";
-INSERT INTO dbo."FeatureApiEndpoint" (
-"Id", "FeatureId", "Path", "AccessScope", "MakerCreId", "MakerCreTime",
-"MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
-"CheckerModId", "CheckerModTime", "RecordState")
-VALUES (
-'72eec6bc-c940-4107-b34b-d1c36f23e009',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'d4609bbe-07b2-4167-aaaf-b4c0848b007b',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/Notification/MarkRead',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -1315,8 +739,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'f9789713-3813-461d-a6ea-0974239ed91a',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'fe766310-cdaf-4131-a96d-32126d890f6b',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/Notification/SearchPaged',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -1347,8 +771,40 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'1d93bc15-1232-487b-9e66-27c3e81a93c3',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'1183c6f4-5f6d-41ec-bd3d-caa882e61a0f',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
+'/api/Product/Search',
+104,
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
+)
+ON CONFLICT ("Id") DO UPDATE SET
+"FeatureId" = EXCLUDED."FeatureId",
+"Path" = EXCLUDED."Path",
+"AccessScope" = EXCLUDED."AccessScope",
+"MakerCreId" = EXCLUDED."MakerCreId",
+"MakerCreTime" = EXCLUDED."MakerCreTime",
+"MakerModId" = EXCLUDED."MakerModId",
+"MakerModTime" = EXCLUDED."MakerModTime",
+"CheckerCreId" = EXCLUDED."CheckerCreId",
+"CheckerCreTime" = EXCLUDED."CheckerCreTime",
+"CheckerModId" = EXCLUDED."CheckerModId",
+"CheckerModTime" = EXCLUDED."CheckerModTime",
+"RecordState" = EXCLUDED."RecordState";
+INSERT INTO dbo."FeatureApiEndpoint" (
+"Id", "FeatureId", "Path", "AccessScope", "MakerCreId", "MakerCreTime",
+"MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
+"CheckerModId", "CheckerModTime", "RecordState")
+VALUES (
+'4a7b5d57-5283-451f-bd5c-14c4f272caae',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/Risk/GetM',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -1379,104 +835,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'ec878c12-0709-4c2f-b30d-761ae20cd3ad',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
-'/api/Risk/GetRiskAssessments',
-104,
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-1
-)
-ON CONFLICT ("Id") DO UPDATE SET
-"FeatureId" = EXCLUDED."FeatureId",
-"Path" = EXCLUDED."Path",
-"AccessScope" = EXCLUDED."AccessScope",
-"MakerCreId" = EXCLUDED."MakerCreId",
-"MakerCreTime" = EXCLUDED."MakerCreTime",
-"MakerModId" = EXCLUDED."MakerModId",
-"MakerModTime" = EXCLUDED."MakerModTime",
-"CheckerCreId" = EXCLUDED."CheckerCreId",
-"CheckerCreTime" = EXCLUDED."CheckerCreTime",
-"CheckerModId" = EXCLUDED."CheckerModId",
-"CheckerModTime" = EXCLUDED."CheckerModTime",
-"RecordState" = EXCLUDED."RecordState";
-INSERT INTO dbo."FeatureApiEndpoint" (
-"Id", "FeatureId", "Path", "AccessScope", "MakerCreId", "MakerCreTime",
-"MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
-"CheckerModId", "CheckerModTime", "RecordState")
-VALUES (
-'1fee3f31-6180-47e6-8e55-9e69f3194556',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
-'/api/Risk/GetRiskIncidents',
-104,
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-1
-)
-ON CONFLICT ("Id") DO UPDATE SET
-"FeatureId" = EXCLUDED."FeatureId",
-"Path" = EXCLUDED."Path",
-"AccessScope" = EXCLUDED."AccessScope",
-"MakerCreId" = EXCLUDED."MakerCreId",
-"MakerCreTime" = EXCLUDED."MakerCreTime",
-"MakerModId" = EXCLUDED."MakerModId",
-"MakerModTime" = EXCLUDED."MakerModTime",
-"CheckerCreId" = EXCLUDED."CheckerCreId",
-"CheckerCreTime" = EXCLUDED."CheckerCreTime",
-"CheckerModId" = EXCLUDED."CheckerModId",
-"CheckerModTime" = EXCLUDED."CheckerModTime",
-"RecordState" = EXCLUDED."RecordState";
-INSERT INTO dbo."FeatureApiEndpoint" (
-"Id", "FeatureId", "Path", "AccessScope", "MakerCreId", "MakerCreTime",
-"MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
-"CheckerModId", "CheckerModTime", "RecordState")
-VALUES (
-'371295b6-1265-4102-87d5-c835959f6801',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
-'/api/Risk/GetRiskKRIs',
-104,
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-1
-)
-ON CONFLICT ("Id") DO UPDATE SET
-"FeatureId" = EXCLUDED."FeatureId",
-"Path" = EXCLUDED."Path",
-"AccessScope" = EXCLUDED."AccessScope",
-"MakerCreId" = EXCLUDED."MakerCreId",
-"MakerCreTime" = EXCLUDED."MakerCreTime",
-"MakerModId" = EXCLUDED."MakerModId",
-"MakerModTime" = EXCLUDED."MakerModTime",
-"CheckerCreId" = EXCLUDED."CheckerCreId",
-"CheckerCreTime" = EXCLUDED."CheckerCreTime",
-"CheckerModId" = EXCLUDED."CheckerModId",
-"CheckerModTime" = EXCLUDED."CheckerModTime",
-"RecordState" = EXCLUDED."RecordState";
-INSERT INTO dbo."FeatureApiEndpoint" (
-"Id", "FeatureId", "Path", "AccessScope", "MakerCreId", "MakerCreTime",
-"MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
-"CheckerModId", "CheckerModTime", "RecordState")
-VALUES (
-'617ed6ac-c954-45e5-8a02-b2712d493ab6',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'b603583b-7f09-4cda-8119-45a301b7dd70',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/Risk/GetWfStatus',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -1507,40 +867,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'27740951-a785-4406-84c7-ec18d5bd5a7e',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
-'/api/Risk/Search',
-104,
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-1
-)
-ON CONFLICT ("Id") DO UPDATE SET
-"FeatureId" = EXCLUDED."FeatureId",
-"Path" = EXCLUDED."Path",
-"AccessScope" = EXCLUDED."AccessScope",
-"MakerCreId" = EXCLUDED."MakerCreId",
-"MakerCreTime" = EXCLUDED."MakerCreTime",
-"MakerModId" = EXCLUDED."MakerModId",
-"MakerModTime" = EXCLUDED."MakerModTime",
-"CheckerCreId" = EXCLUDED."CheckerCreId",
-"CheckerCreTime" = EXCLUDED."CheckerCreTime",
-"CheckerModId" = EXCLUDED."CheckerModId",
-"CheckerModTime" = EXCLUDED."CheckerModTime",
-"RecordState" = EXCLUDED."RecordState";
-INSERT INTO dbo."FeatureApiEndpoint" (
-"Id", "FeatureId", "Path", "AccessScope", "MakerCreId", "MakerCreTime",
-"MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
-"CheckerModId", "CheckerModTime", "RecordState")
-VALUES (
-'1c756942-16c5-4dec-a50f-a7d78c68da23',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'2a487749-b995-4937-b46f-009eab961374',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/Risk/SearchWfStatus',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -1571,8 +899,40 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'01f665ff-0870-4911-9cb6-b900efdfaacc',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'fe74448a-c503-400b-9024-16b5a76f222d',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
+'/api/Risk/Transit',
+104,
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
+)
+ON CONFLICT ("Id") DO UPDATE SET
+"FeatureId" = EXCLUDED."FeatureId",
+"Path" = EXCLUDED."Path",
+"AccessScope" = EXCLUDED."AccessScope",
+"MakerCreId" = EXCLUDED."MakerCreId",
+"MakerCreTime" = EXCLUDED."MakerCreTime",
+"MakerModId" = EXCLUDED."MakerModId",
+"MakerModTime" = EXCLUDED."MakerModTime",
+"CheckerCreId" = EXCLUDED."CheckerCreId",
+"CheckerCreTime" = EXCLUDED."CheckerCreTime",
+"CheckerModId" = EXCLUDED."CheckerModId",
+"CheckerModTime" = EXCLUDED."CheckerModTime",
+"RecordState" = EXCLUDED."RecordState";
+INSERT INTO dbo."FeatureApiEndpoint" (
+"Id", "FeatureId", "Path", "AccessScope", "MakerCreId", "MakerCreTime",
+"MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
+"CheckerModId", "CheckerModTime", "RecordState")
+VALUES (
+'b042c949-068e-43c9-8719-110311350695',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/RiskCategory/Hierarchy',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -1603,9 +963,9 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'56453d03-24cd-48a9-86d3-4d27810e1caa',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
-'/api/RiskCategory/Search',
+'bc8c2e3d-374b-4d00-b418-741d8064ba80',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
+'/api/RiskLLG/Get',
 104,
 '00000000-0000-0000-0000-000000000000',
 '-infinity',
@@ -1635,8 +995,40 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'517a94cc-f0b8-42d8-8bbb-0e100684b526',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'1fb70ed5-bcbc-450d-970e-b0c1b971d6a9',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
+'/api/RiskLLG/GetWfStatus',
+104,
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
+)
+ON CONFLICT ("Id") DO UPDATE SET
+"FeatureId" = EXCLUDED."FeatureId",
+"Path" = EXCLUDED."Path",
+"AccessScope" = EXCLUDED."AccessScope",
+"MakerCreId" = EXCLUDED."MakerCreId",
+"MakerCreTime" = EXCLUDED."MakerCreTime",
+"MakerModId" = EXCLUDED."MakerModId",
+"MakerModTime" = EXCLUDED."MakerModTime",
+"CheckerCreId" = EXCLUDED."CheckerCreId",
+"CheckerCreTime" = EXCLUDED."CheckerCreTime",
+"CheckerModId" = EXCLUDED."CheckerModId",
+"CheckerModTime" = EXCLUDED."CheckerModTime",
+"RecordState" = EXCLUDED."RecordState";
+INSERT INTO dbo."FeatureApiEndpoint" (
+"Id", "FeatureId", "Path", "AccessScope", "MakerCreId", "MakerCreTime",
+"MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
+"CheckerModId", "CheckerModTime", "RecordState")
+VALUES (
+'63eab9e0-073c-4a96-b87f-7afe9ecc1b9b',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/RiskLLG/Search',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -1667,9 +1059,9 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'3fd3293a-e4af-457a-93ea-7a3e95ccff83',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
-'/api/Risks/RiskRegisterReport',
+'68cda149-1d64-4fdb-81eb-60895c4ef946',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
+'/api/RiskLLG/SearchWfStatus',
 104,
 '00000000-0000-0000-0000-000000000000',
 '-infinity',
@@ -1699,8 +1091,72 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'14c74954-4370-4849-bc75-5b89205da88f',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'cc6643f9-ad39-4dc4-90f1-b8c6c1dd61ce',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
+'/api/Risks/LossAggregateReport',
+104,
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
+)
+ON CONFLICT ("Id") DO UPDATE SET
+"FeatureId" = EXCLUDED."FeatureId",
+"Path" = EXCLUDED."Path",
+"AccessScope" = EXCLUDED."AccessScope",
+"MakerCreId" = EXCLUDED."MakerCreId",
+"MakerCreTime" = EXCLUDED."MakerCreTime",
+"MakerModId" = EXCLUDED."MakerModId",
+"MakerModTime" = EXCLUDED."MakerModTime",
+"CheckerCreId" = EXCLUDED."CheckerCreId",
+"CheckerCreTime" = EXCLUDED."CheckerCreTime",
+"CheckerModId" = EXCLUDED."CheckerModId",
+"CheckerModTime" = EXCLUDED."CheckerModTime",
+"RecordState" = EXCLUDED."RecordState";
+INSERT INTO dbo."FeatureApiEndpoint" (
+"Id", "FeatureId", "Path", "AccessScope", "MakerCreId", "MakerCreTime",
+"MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
+"CheckerModId", "CheckerModTime", "RecordState")
+VALUES (
+'7a32b88e-da0c-4736-a893-8fe05f135495',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
+'/api/Risks/RatingAggregateReport',
+104,
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
+)
+ON CONFLICT ("Id") DO UPDATE SET
+"FeatureId" = EXCLUDED."FeatureId",
+"Path" = EXCLUDED."Path",
+"AccessScope" = EXCLUDED."AccessScope",
+"MakerCreId" = EXCLUDED."MakerCreId",
+"MakerCreTime" = EXCLUDED."MakerCreTime",
+"MakerModId" = EXCLUDED."MakerModId",
+"MakerModTime" = EXCLUDED."MakerModTime",
+"CheckerCreId" = EXCLUDED."CheckerCreId",
+"CheckerCreTime" = EXCLUDED."CheckerCreTime",
+"CheckerModId" = EXCLUDED."CheckerModId",
+"CheckerModTime" = EXCLUDED."CheckerModTime",
+"RecordState" = EXCLUDED."RecordState";
+INSERT INTO dbo."FeatureApiEndpoint" (
+"Id", "FeatureId", "Path", "AccessScope", "MakerCreId", "MakerCreTime",
+"MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
+"CheckerModId", "CheckerModTime", "RecordState")
+VALUES (
+'cfca7021-de2e-4f5b-91f6-1ebd9c464b64',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/Roles/Search/{recordState}',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -1731,40 +1187,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'0cae79d6-6f1d-4123-b0e4-90d1032a43eb',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
-'/api/Screen/Search',
-104,
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-1
-)
-ON CONFLICT ("Id") DO UPDATE SET
-"FeatureId" = EXCLUDED."FeatureId",
-"Path" = EXCLUDED."Path",
-"AccessScope" = EXCLUDED."AccessScope",
-"MakerCreId" = EXCLUDED."MakerCreId",
-"MakerCreTime" = EXCLUDED."MakerCreTime",
-"MakerModId" = EXCLUDED."MakerModId",
-"MakerModTime" = EXCLUDED."MakerModTime",
-"CheckerCreId" = EXCLUDED."CheckerCreId",
-"CheckerCreTime" = EXCLUDED."CheckerCreTime",
-"CheckerModId" = EXCLUDED."CheckerModId",
-"CheckerModTime" = EXCLUDED."CheckerModTime",
-"RecordState" = EXCLUDED."RecordState";
-INSERT INTO dbo."FeatureApiEndpoint" (
-"Id", "FeatureId", "Path", "AccessScope", "MakerCreId", "MakerCreTime",
-"MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
-"CheckerModId", "CheckerModTime", "RecordState")
-VALUES (
-'823cfb59-0902-4075-9961-c5f68e0e48fc',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'45a3de88-0920-42e1-ba2d-30e39fc8edb3',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/SM/Get',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -1795,8 +1219,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'cc9d2e5a-0d30-450c-a2c9-c4ca8048c39e',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'23bbe295-ef5f-460b-bc9b-53389ea795a8',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/SystemLookups/{lookupType}',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -1827,8 +1251,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'e2fe74f4-edf1-446d-933d-cf9f2710e15c',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'1c156fd2-2c7f-4d0a-ab6f-b32e35a9cfc6',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/UserProfile/GetRoleDetails',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -1859,8 +1283,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'1bd72bc7-2ab2-47bb-808d-f784619652ee',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'e287a716-e380-421c-a266-05d3686d8263',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/UserProfile/GetUserDetails',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -1891,8 +1315,40 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'6f68d790-b671-431d-93c5-467b4ebb2f05',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'17160b88-8041-4613-aa12-b1154930495e',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
+'/api/UserProfile/GetUserProfiles',
+104,
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+'00000000-0000-0000-0000-000000000000',
+'-infinity',
+1
+)
+ON CONFLICT ("Id") DO UPDATE SET
+"FeatureId" = EXCLUDED."FeatureId",
+"Path" = EXCLUDED."Path",
+"AccessScope" = EXCLUDED."AccessScope",
+"MakerCreId" = EXCLUDED."MakerCreId",
+"MakerCreTime" = EXCLUDED."MakerCreTime",
+"MakerModId" = EXCLUDED."MakerModId",
+"MakerModTime" = EXCLUDED."MakerModTime",
+"CheckerCreId" = EXCLUDED."CheckerCreId",
+"CheckerCreTime" = EXCLUDED."CheckerCreTime",
+"CheckerModId" = EXCLUDED."CheckerModId",
+"CheckerModTime" = EXCLUDED."CheckerModTime",
+"RecordState" = EXCLUDED."RecordState";
+INSERT INTO dbo."FeatureApiEndpoint" (
+"Id", "FeatureId", "Path", "AccessScope", "MakerCreId", "MakerCreTime",
+"MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
+"CheckerModId", "CheckerModTime", "RecordState")
+VALUES (
+'cac40ac8-2e1e-48eb-993c-fd01aab729e5',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/UserProfile/Search',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -1923,40 +1379,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'0184bd7e-a2a5-4db0-8919-b9bf2f795e7b',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
-'/api/Users/AddView',
-104,
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-1
-)
-ON CONFLICT ("Id") DO UPDATE SET
-"FeatureId" = EXCLUDED."FeatureId",
-"Path" = EXCLUDED."Path",
-"AccessScope" = EXCLUDED."AccessScope",
-"MakerCreId" = EXCLUDED."MakerCreId",
-"MakerCreTime" = EXCLUDED."MakerCreTime",
-"MakerModId" = EXCLUDED."MakerModId",
-"MakerModTime" = EXCLUDED."MakerModTime",
-"CheckerCreId" = EXCLUDED."CheckerCreId",
-"CheckerCreTime" = EXCLUDED."CheckerCreTime",
-"CheckerModId" = EXCLUDED."CheckerModId",
-"CheckerModTime" = EXCLUDED."CheckerModTime",
-"RecordState" = EXCLUDED."RecordState";
-INSERT INTO dbo."FeatureApiEndpoint" (
-"Id", "FeatureId", "Path", "AccessScope", "MakerCreId", "MakerCreTime",
-"MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
-"CheckerModId", "CheckerModTime", "RecordState")
-VALUES (
-'c27d634c-4413-4ea5-b90b-bdd95557a04a',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'1eb32e01-6e9c-4a87-9dcb-383cfa5c6b26',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/Users/CurrentUser/{applicationId}/FeaturePermissions',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -1987,40 +1411,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'4c76fea0-ab9b-4f0e-83c8-bdb51c112114',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
-'/api/Users/DeleteView',
-104,
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-1
-)
-ON CONFLICT ("Id") DO UPDATE SET
-"FeatureId" = EXCLUDED."FeatureId",
-"Path" = EXCLUDED."Path",
-"AccessScope" = EXCLUDED."AccessScope",
-"MakerCreId" = EXCLUDED."MakerCreId",
-"MakerCreTime" = EXCLUDED."MakerCreTime",
-"MakerModId" = EXCLUDED."MakerModId",
-"MakerModTime" = EXCLUDED."MakerModTime",
-"CheckerCreId" = EXCLUDED."CheckerCreId",
-"CheckerCreTime" = EXCLUDED."CheckerCreTime",
-"CheckerModId" = EXCLUDED."CheckerModId",
-"CheckerModTime" = EXCLUDED."CheckerModTime",
-"RecordState" = EXCLUDED."RecordState";
-INSERT INTO dbo."FeatureApiEndpoint" (
-"Id", "FeatureId", "Path", "AccessScope", "MakerCreId", "MakerCreTime",
-"MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
-"CheckerModId", "CheckerModTime", "RecordState")
-VALUES (
-'7941d3fe-72ae-4d4a-ba78-07476049f8ed',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'2b94ebf0-2e8b-4e1e-b973-755b30fe6a9d',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/Users/{id}/Avatar',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -2051,40 +1443,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'4d56f7c8-c5b4-43c7-ad7d-942aeb0cf29d',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
-'/api/Users/EditView',
-104,
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-1
-)
-ON CONFLICT ("Id") DO UPDATE SET
-"FeatureId" = EXCLUDED."FeatureId",
-"Path" = EXCLUDED."Path",
-"AccessScope" = EXCLUDED."AccessScope",
-"MakerCreId" = EXCLUDED."MakerCreId",
-"MakerCreTime" = EXCLUDED."MakerCreTime",
-"MakerModId" = EXCLUDED."MakerModId",
-"MakerModTime" = EXCLUDED."MakerModTime",
-"CheckerCreId" = EXCLUDED."CheckerCreId",
-"CheckerCreTime" = EXCLUDED."CheckerCreTime",
-"CheckerModId" = EXCLUDED."CheckerModId",
-"CheckerModTime" = EXCLUDED."CheckerModTime",
-"RecordState" = EXCLUDED."RecordState";
-INSERT INTO dbo."FeatureApiEndpoint" (
-"Id", "FeatureId", "Path", "AccessScope", "MakerCreId", "MakerCreTime",
-"MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
-"CheckerModId", "CheckerModTime", "RecordState")
-VALUES (
-'88665fae-9191-465e-82ca-92cbc3b1da97',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'60bd602e-496c-49e9-98b8-0690b8d682ba',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/Users/Me/Get',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -2115,8 +1475,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'7a7fda23-7ff7-4029-9ad6-f9bf440304c2',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'96f1a815-5eaa-4193-a825-e90648bac400',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/Users/Profile',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -2147,8 +1507,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'91d85c09-b2f2-4fb0-afbb-ebce526dedd5',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'54b37fed-2687-4c5a-9074-60443f616dd6',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/Users/Search/{recordState}',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -2179,8 +1539,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'2edcae3f-2e98-4ba2-8c62-01a0c50e94d8',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'af8f693a-a0d5-4864-96ea-b4cdb65c31f2',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/Workflow/GetByTranType',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -2211,8 +1571,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'5d02bd49-a8af-4c2f-bcd7-ff2b1719d642',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'9c9ba409-5f19-4921-b92c-d37af17f9f83',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/Workflow/GetStartTransitions',
 104,
 '00000000-0000-0000-0000-000000000000',
@@ -2243,40 +1603,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'361078cc-fca8-4213-add1-8c7c09e0b319',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
-'/api/Workflow/GetStateOptions',
-104,
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-'00000000-0000-0000-0000-000000000000',
-'-infinity',
-1
-)
-ON CONFLICT ("Id") DO UPDATE SET
-"FeatureId" = EXCLUDED."FeatureId",
-"Path" = EXCLUDED."Path",
-"AccessScope" = EXCLUDED."AccessScope",
-"MakerCreId" = EXCLUDED."MakerCreId",
-"MakerCreTime" = EXCLUDED."MakerCreTime",
-"MakerModId" = EXCLUDED."MakerModId",
-"MakerModTime" = EXCLUDED."MakerModTime",
-"CheckerCreId" = EXCLUDED."CheckerCreId",
-"CheckerCreTime" = EXCLUDED."CheckerCreTime",
-"CheckerModId" = EXCLUDED."CheckerModId",
-"CheckerModTime" = EXCLUDED."CheckerModTime",
-"RecordState" = EXCLUDED."RecordState";
-INSERT INTO dbo."FeatureApiEndpoint" (
-"Id", "FeatureId", "Path", "AccessScope", "MakerCreId", "MakerCreTime",
-"MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
-"CheckerModId", "CheckerModTime", "RecordState")
-VALUES (
-'449fbd2d-ede5-4b78-aead-e42748208981',
-'4ab363e2-1e05-488e-8bca-a917b13216a6',
+'c6c63f8c-1b43-453a-9a65-f5f94b5f3efd',
+'f35c2fa1-0be1-4a01-9a9a-91dfb44aad7f',
 '/api/Workflow/TranActivity/SearchPaged',
 104,
 '00000000-0000-0000-0000-000000000000',
