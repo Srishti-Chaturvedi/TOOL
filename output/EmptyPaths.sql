@@ -68,8 +68,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
 'f5823ebb-4702-43c2-bf68-4cba08a662d2',
-'',
 '1de9a8fd-0194-48dc-a0c1-0a8b7843ecab',
+'',
 104,
 '00000000-0000-0000-0000-000000000000',
 '-infinity',
@@ -100,8 +100,8 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
 '3c6db5be-9679-4569-86a8-e8b2ce73dff6',
-'',
 '3ea81d7a-4df4-4305-945d-1e64aaab55c7',
+'',
 104,
 '00000000-0000-0000-0000-000000000000',
 '-infinity',

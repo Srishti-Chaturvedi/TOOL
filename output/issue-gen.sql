@@ -1027,7 +1027,7 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'faf62e29-28ee-4c6d-a92j-7d3141491f63',
+'850c2960-df2b-4c5f-8f49-6478a77944cd',
 '2ca28fec-2e0e-43f0-98b0-36f803172e39',
 '/api/Users/Search/{recordState}',
 104,
@@ -1059,7 +1059,7 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'faf62e29-28ee-4c6d-a93j-7d3151491f63',
+'18ecac02-ce1f-42a7-b03a-72725133c7de',
 '2ca28fec-2e0e-43f0-98b0-36f803172e39',
 '/api/Workflow/GetByTranType',
 104,
@@ -1091,7 +1091,7 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'faf62e29-28fe-4d6d-a92j-7d3141491f63',
+'329acdbc-8b33-4776-bbca-d6592c8febbb',
 '2ca28fec-2e0e-43f0-98b0-36f803172e39',
 '/api/Workflow/GetStartTransitions',
 104,
@@ -1123,7 +1123,7 @@ INSERT INTO dbo."FeatureApiEndpoint" (
 "MakerModId", "MakerModTime", "CheckerCreId", "CheckerCreTime",
 "CheckerModId", "CheckerModTime", "RecordState")
 VALUES (
-'faf62e29-18ee-4c6d-a92j-7d3141491f63',
+'6b67fd66-50b3-4bb9-992b-9fd05c0b8d58',
 '2ca28fec-2e0e-43f0-98b0-36f803172e39',
 '/api/Workflow/TranActivity/SearchPaged',
 104,
